@@ -24,6 +24,14 @@ function displayTodoList() {
   var list = document.getElementById("todosList");
   var html = "";
 
+  // Show the container if there are tasks
+  var div_list = document.getElementById("to-dos");
+  if (todos.length > 0) {
+    div_list.style.display = "block";
+  } else {
+    div_list.style.display = "none"; // Hide if no tasks
+  }
+
   for (var i = 0; i < todos.length; i++) {
     html += `
       <li >
