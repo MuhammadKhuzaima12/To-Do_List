@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/favicon_todo.ico" type="image/x-icon">
+
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="main_div container">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            To~Do List
+            <img src="./assets/./hero_img.png" alt="icon" width="32px" height="30px">
+          </h5>
+          <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+          <div class="input_row">
+            <input
+              type="text"
+              name="add_task"
+              id="add_task"
+              placeholder="Enter a task"
+              required
+            />
+            <span>
+              <button
+                type="button"
+                class="btn btn-outline-info"
+                onclick="add_tasks()"
+              >
+                Add Task
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="to-dos">
+          <ul id="todosList" class="list-group"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!--Scripts-->
+
+    <!--Bootstrap Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
