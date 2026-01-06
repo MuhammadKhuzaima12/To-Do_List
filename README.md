@@ -1,4 +1,7 @@
-# To-Do List Web Application
+# **SmartTasks**
+
+***Organize your tasks with a sleek, interactive JavaScript to-do app***
+
 A clean, responsive to-do list application built with HTML, CSS, and JavaScript with Bootstrap and Font Awesome for styling. This application helps you organize your tasks with a beautiful, user-friendly interface.
 
 # Features
