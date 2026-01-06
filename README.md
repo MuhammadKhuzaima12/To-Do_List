@@ -6,9 +6,13 @@ A clean, responsive to-do list application built with HTML, CSS, and JavaScript 
 
 # Features
 ✔ Add tasks with a simple input field
+
 ✔ Edit existing tasks with a quick click
+
 ✔ Delete tasks you no longer need
+
 ✔ Beautiful UI with custom styling and icons
+
 ✔ Keyboard support - add tasks by pressing Enter
 
 # How It Works
